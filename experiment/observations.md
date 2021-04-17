@@ -1,1 +1,1 @@
-[Read More](9.Jets.pdf)
+[Read in the detailed experiment](docs/9.Jets.pdf)
