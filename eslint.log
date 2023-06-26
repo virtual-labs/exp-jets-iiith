@@ -1,0 +1,10 @@
+
+/home/runner/work/exp-jets-iiith/exp-jets-iiith/experiment/simulation/js/main.js
+   6:7   warning  'arrayRemove' is assigned a value but never used     no-unused-vars
+  14:7   warning  'asyncMove' is assigned a value but never used       no-unused-vars
+  16:10  warning  Unexpected constant condition                        no-constant-condition
+  33:12  warning  Unexpected constant condition                        no-constant-condition
+  62:7   warning  'startAnimation' is assigned a value but never used  no-unused-vars
+
+✖ 5 problems (0 errors, 5 warnings)
+
