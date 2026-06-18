@@ -1,3 +1,1 @@
-To verify the momentum equation experimentally through impact of jet experiment. 
-
-To read about the Aim of the experiment click [here](docs/9.Jets.pdf)
+The primary aim of this experiment is to verify the momentum equation by studying the impact of a jet of water on different types of vanes. The experiment demonstrates the relationship between the force exerted by the jet and the change in momentum of the flowing fluid. This provides practical insight into the principles governing hydraulic machines and fluid propulsion systems.
