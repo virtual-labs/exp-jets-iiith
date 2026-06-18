@@ -1,257 +1,77 @@
-The objective of the Impact of Jet Experiment is to compare the theoretical force developed by a water jet with the experimentally measured balancing force.
+### What is Measured?
 
-During the experiment, the discharge through the nozzle and the balancing load are measured. These observations are used to calculate the jet velocity, theoretical impact force, experimental force, and percentage error.
+During the experiment, the following quantities are measured:
 
-### Measured Data
+- Diameter of the nozzle,
+- Plan area of the collecting tank,
+- Rise of water level in the collecting tank,
+- Time required for collection,
+- Balancing mass placed on the loading pan,
+- Shape of the target surface (flat plate or hemispherical cup).
 
-The following quantities are measured during the experiment.
+These measurements are used to determine the discharge, jet velocity, theoretical impact force, experimental force, and percentage error.
 
-|        Parameter        | Symbol | Unit  |
-| :---------------------: | :----: | :---: |
-|     Nozzle diameter     |  $d$   |   m   |
-| Area of collecting tank | $A_t$  | m$^2$ |
-|   Rise of water level   |  $h$   |   m   |
-|     Collection time     |  $t$   |   s   |
-|     Balancing mass      |  $m$   |  kg   |
+### Why are these Measurements Important?
 
-For water,
+#### Nozzle Diameter
 
-$$
-\rho=1000;kg/m^3
-$$
+The nozzle diameter determines the cross-sectional area of the jet and is required for calculating the jet velocity.
 
-and
+#### Rise of Water Level and Collection Time
 
-$$
-g=9.81;m/s^2
-$$
+These measurements are used to determine the discharge through the nozzle by the volumetric method.
 
-### Calculation of Nozzle Area
+#### Balancing Mass
 
-The nozzle area is required to determine the velocity of the water jet.
+The balancing mass provides the experimental force developed by the jet.
 
-The cross-sectional area of the nozzle is
+#### Shape of Target Surface
+
+The force exerted by the jet depends upon the change in momentum of water. A hemispherical cup produces a larger force than a flat plate because it changes the direction of flow more significantly.
+
+#### Comparison of Forces
+
+Comparing the theoretical force obtained from the momentum equation with the experimentally measured force verifies the momentum principle.
+
+### Sequential Calculations
+
+#### Step 1
+
+Calculate the nozzle area.
 
 $$
 A=\frac{\pi d^2}{4}
 $$
 
-For
+where
+
+- $d$ = nozzle diameter.
+
+#### Step 2
+
+Determine the discharge using the volumetric method.
 
 $$
-d=0.01;m,
+Q=\frac{A_t h}{t}
 $$
 
-$$
-A=\frac{\pi(0.01)^2}{4}
-$$
+where
 
-$$
-A=7.85\times10^{-5};m^2
-$$
+- $A_t$ = plan area of collecting tank,
+- $h$ = rise of water level,
+- $t$ = collection time.
 
-### Calculation of Collected Volume
+#### Step 3
 
-The volume of water collected in the tank is calculated from the tank area and the rise in water level.
-
-$$
-V_c=A_t h
-$$
-
-For
-
-$$
-A_t=0.12;m^2
-$$
-
-and
-
-$$
-h=0.05;m,
-$$
-
-$$
-V_c=0.12\times0.05
-$$
-
-$$
-V_c=0.006;m^3
-$$
-
-### Calculation of Discharge
-
-The discharge represents the volume flow rate through the nozzle.
-
-$$
-Q=\frac{V_c}{t}
-$$
-
-For
-
-$$
-V_c=0.006;m^3
-$$
-
-and
-
-$$
-t=20;s,
-$$
-
-$$
-Q=\frac{0.006}{20}
-$$
-
-$$
-Q=3.0\times10^{-4};m^3/s
-$$
-
-### Calculation of Jet Velocity
-
-The velocity of the jet is obtained from the discharge and the nozzle area.
+Calculate the jet velocity.
 
 $$
 V=\frac{Q}{A}
 $$
 
-Using
+#### Step 4
 
-$$
-Q=3.0\times10^{-4};m^3/s
-$$
-
-and
-
-$$
-A=7.85\times10^{-5};m^2,
-$$
-
-$$
-V=\frac{3.0\times10^{-4}}{7.85\times10^{-5}}
-$$
-
-$$
-V=3.82;m/s
-$$
-
-### Calculation of Theoretical Impact Force
-
-The theoretical force depends upon the shape of the target.
-
-#### Flat Plate
-
-$$
-F_t=\rho QV
-$$
-
-Substituting,
-
-$$
-F_t=1000\times3.0\times10^{-4}\times3.82
-$$
-
-$$
-F_t=1.15;N
-$$
-
-#### Hemispherical Cup
-
-$$
-F_t=2\rho QV
-$$
-
-$$
-F_t=2\times1000\times3.0\times10^{-4}\times3.82
-$$
-
-$$
-F_t=2.29;N
-$$
-
-### Calculation of Experimental Force
-
-The balancing weights applied to the loading pan produce the experimental force.
-
-$$
-F_e=mg
-$$
-
-For
-
-$$
-m=0.12;kg,
-$$
-
-$$
-F_e=0.12\times9.81
-$$
-
-$$
-F_e=1.18;N
-$$
-
-### Calculation of Percentage Error
-
-The percentage error indicates the difference between the theoretical force predicted by the momentum equation and the experimentally measured balancing force.
-
-The percentage error is calculated as
-
-$$
-%;Error=\frac{|F_t-F_e|}{F_t}\times100
-$$
-
-where,
-
-- $F_t$ = theoretical force,
-- $F_e$ = experimental force.
-
-For the flat plate,
-
-$$
-F_t=1.15;N
-$$
-
-and
-
-$$
-F_e=1.18;N.
-$$
-
-Therefore,
-
-$$
-%;Error=\frac{|1.15-1.18|}{1.15}\times100
-$$
-
-$$
-%;Error=\frac{0.03}{1.15}\times100
-$$
-
-$$
-%;Error=2.61%
-$$
-
-A small percentage error indicates good agreement between the theoretical prediction based on the momentum equation and the experimentally measured force.
-
-### Sample Calculation Summary
-
-The calculations performed during the experiment follow the sequence
-
-$$
-A=\frac{\pi d^2}{4}
-$$
-
-$$
-V_c=A_t h
-$$
-
-$$
-Q=\frac{V_c}{t}
-$$
-
-$$
-V=\frac{Q}{A}
-$$
+Calculate the theoretical force.
 
 For a flat plate,
 
@@ -265,27 +85,139 @@ $$
 F_t=2\rho QV
 $$
 
-Experimental force,
+where
+
+$$
+\rho=1000\ kg/m^3
+$$
+
+for water.
+
+#### Step 5
+
+Calculate the experimental force.
 
 $$
 F_e=mg
 $$
 
+where
+
+- $m$ = balancing mass,
+- $g=9.81\ m/s^2$.
+
+#### Step 6
+
+Calculate the percentage error.
+
+$$
+\%\ Error=\frac{|F_t-F_e|}{F_t}\times100
+$$
+
+### Solved Numerical Example
+
+Given,
+
+Nozzle diameter,
+
+$$
+d=0.01\ m
+$$
+
+Plan area of collecting tank,
+
+$$
+A_t=0.12\ m^2
+$$
+
+Rise of water level,
+
+$$
+h=0.05\ m
+$$
+
+Collection time,
+
+$$
+t=20\ s
+$$
+
+Balancing mass,
+
+$$
+m=0.12\ kg
+$$
+
+Nozzle area,
+
+$$
+A=\frac{\pi(0.01)^2}{4}
+=7.85\times10^{-5}\ m^2
+$$
+
+Discharge,
+
+$$
+Q=\frac{0.12\times0.05}{20}
+=3.0\times10^{-4}\ m^3/s
+$$
+
+Jet velocity,
+
+$$
+V=\frac{3.0\times10^{-4}}
+{7.85\times10^{-5}}
+=3.82\ m/s
+$$
+
+For a flat plate,
+
+Theoretical force,
+
+$$
+F_t=1000\times3.0\times10^{-4}\times3.82
+=1.15\ N
+$$
+
+Experimental force,
+
+$$
+F_e=0.12\times9.81
+=1.18\ N
+$$
+
 Percentage error,
 
 $$
-%;Error=\frac{|F_t-F_e|}{F_t}\times100
+\%\ Error=
+\frac{|1.15-1.18|}{1.15}\times100
+=2.61\%
 $$
 
-### Sample Observation Table
+### Observation Table
 
-| Trial | $h$ (m) | $t$ (s) | $Q$ ($10^{-4}$ m$^3$/s) | $V$ (m/s) | Mass (kg) | $F_e$ (N) | $F_t$ (N) | Error (%) |
-| :---: | :-----: | :-----: | :---------------------: | :-------: | :-------: | :-------: | :-------: | :-------: |
-|   1   |  0.050  |   20    |          3.00           |   3.82    |   0.12    |   1.18    |   1.15    |   2.61    |
-|   2   |  0.060  |   20    |          3.60           |   4.58    |   0.17    |   1.67    |   1.65    |   1.21    |
-|   3   |  0.070  |   20    |          4.20           |   5.35    |   0.23    |   2.26    |   2.25    |   0.44    |
-|   4   |  0.080  |   20    |          4.80           |   6.11    |   0.30    |   2.94    |   2.93    |   0.34    |
+#### Flat Plate
+
+| Trial | Rise of Water Level (m) | Time (s) | Discharge ($10^{-4}\ m^3/s$) | Jet Velocity (m/s) | Experimental Force (N) | Theoretical Force (N) | Error (%) |
+| :---: | ----------------------: | -------: | ---------------------------: | -----------------: | ---------------------: | --------------------: | --------: |
+|   1   |                   0.050 |       20 |                         3.00 |               3.82 |                   1.18 |                  1.15 |      2.61 |
+|   2   |                   0.060 |       20 |                         3.60 |               4.58 |                   1.67 |                  1.65 |      1.21 |
+|   3   |                   0.070 |       20 |                         4.20 |               5.35 |                   2.26 |                  2.25 |      0.44 |
+|   4   |                   0.080 |       20 |                         4.80 |               6.11 |                   2.94 |                  2.93 |      0.34 |
+
+#### Hemispherical Cup
+
+| Trial | Rise of Water Level (m) | Time (s) | Discharge ($10^{-4}\ m^3/s$) | Jet Velocity (m/s) | Experimental Force (N) | Theoretical Force (N) | Error (%) |
+| :---: | ----------------------: | -------: | ---------------------------: | -----------------: | ---------------------: | --------------------: | --------: |
+|   1   |                   0.050 |       20 |                         3.00 |               3.82 |                   2.31 |                  2.29 |      0.87 |
+|   2   |                   0.060 |       20 |                         3.60 |               4.58 |                   3.30 |                  3.29 |      0.30 |
+|   3   |                   0.070 |       20 |                         4.20 |               5.35 |                   4.51 |                  4.49 |      0.45 |
+|   4   |                   0.080 |       20 |                         4.80 |               6.11 |                   5.88 |                  5.86 |      0.34 |
 
 ### Interpretation
 
-The theoretical force increases with the discharge and velocity of the jet because a larger flow rate produces a greater change in momentum. The experimental force obtained from the balancing weights should closely match the theoretical value, thereby verifying the momentum equation for the impact of a jet.
+The observations show that the force developed by the jet increases with increasing discharge and jet velocity because a larger flow rate produces a greater change in momentum.
+
+For the same discharge, the hemispherical cup develops a larger force than the flat plate because the water undergoes a greater change in direction.
+
+The experimental force obtained from the balancing weights closely agrees with the theoretical force predicted by the momentum equation, thereby verifying the principle of conservation of momentum for fluid flow.
