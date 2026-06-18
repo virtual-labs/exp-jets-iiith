@@ -1,21 +1,158 @@
-[
-   {
-      "question":"1. Normal force acting on a stationary plate by impact of a jet is proportional to:",
-      "answers":{
-         "a":"Square of velocity of jet",
-         "b":"Cube of velocity of jet",
-         "c":"Square root of velocity of jet"
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "1. The normal force exerted by a jet on a stationary flat plate is proportional to:",
+      "answers": {
+        "a": "Square of the jet velocity",
+        "b": "Cube of the jet velocity",
+        "c": "Square root of the jet velocity",
+        "d": "Inverse of the jet velocity"
       },
-      "correctAnswer":"a"
-   },
-   {
-      "question":"2. What is the maximum efficiency that can be developed by a series of moving plates hit by a jet of water?",
-      "answers":{
-         "a":"75%",
-         "b":"25%",
-         "c":"50%",
-         "d":"99%"
+      "correctAnswer": "a",
+      "explanations": {
+        "a": "Correct. Since force is proportional to the rate of change of momentum, it varies with the square of jet velocity for a given jet area.",
+        "b": "Incorrect. The force does not vary with the cube of velocity.",
+        "c": "Incorrect. A square root relationship is not applicable.",
+        "d": "Incorrect. Increasing velocity increases, rather than decreases, the force."
       },
-      "correctAnswer":"c"
-   }
-]
+      "difficulty": "beginner"
+    },
+    {
+      "question": "2. The maximum efficiency developed by a series of moving flat plates struck by a jet of water is:",
+      "answers": {
+        "a": "25%",
+        "b": "50%",
+        "c": "75%",
+        "d": "100%"
+      },
+      "correctAnswer": "b",
+      "explanations": {
+        "a": "Incorrect. This value is below the theoretical maximum.",
+        "b": "Correct. The maximum theoretical efficiency for a series of moving flat plates is 50%.",
+        "c": "Incorrect. Such efficiency is not attainable for flat plates.",
+        "d": "Incorrect. Complete conversion of kinetic energy is not possible."
+      },
+      "difficulty": "beginner"
+    },
+    {
+      "question": "3. Which principle is used to determine the force exerted by a jet on a vane?",
+      "answers": {
+        "a": "Pascal's law",
+        "b": "Archimedes' principle",
+        "c": "Conservation of momentum",
+        "d": "Newton's law of viscosity"
+      },
+      "correctAnswer": "c",
+      "explanations": {
+        "a": "Incorrect. Pascal's law deals with pressure transmission in fluids.",
+        "b": "Incorrect. Archimedes' principle concerns buoyancy.",
+        "c": "Correct. Force developed by a jet is obtained from the rate of change of momentum.",
+        "d": "Incorrect. Newton's law of viscosity is unrelated to jet impact force calculations."
+      },
+      "difficulty": "beginner"
+    },
+    {
+      "question": "4. For a stationary flat plate placed normal to a jet, the force exerted by the jet is proportional to:",
+      "answers": {
+        "a": "Mass flow rate multiplied by jet velocity",
+        "b": "Mass flow rate divided by jet velocity",
+        "c": "Jet velocity only",
+        "d": "Area of the plate only"
+      },
+      "correctAnswer": "a",
+      "explanations": {
+        "a": "Correct. Force is equal to the rate of change of linear momentum, which is mass flow rate multiplied by the velocity change.",
+        "b": "Incorrect. Division by velocity does not represent momentum change.",
+        "c": "Incorrect. Mass flow rate also affects the force.",
+        "d": "Incorrect. Plate area alone does not determine the force."
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "5. A curved vane produces greater force than a flat plate because it:",
+      "answers": {
+        "a": "Reduces fluid density",
+        "b": "Increases viscosity",
+        "c": "Produces a larger change in momentum",
+        "d": "Eliminates friction completely"
+      },
+      "correctAnswer": "c",
+      "explanations": {
+        "a": "Incorrect. Density is not altered by the vane shape.",
+        "b": "Incorrect. Viscosity is a fluid property and remains unchanged.",
+        "c": "Correct. Curved vanes cause a larger change in momentum, resulting in greater force.",
+        "d": "Incorrect. Friction losses cannot be completely eliminated."
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "6. For maximum power transmission to a series of moving flat plates, the plate velocity should be approximately:",
+      "answers": {
+        "a": "Equal to jet velocity",
+        "b": "Twice the jet velocity",
+        "c": "One-fourth of jet velocity",
+        "d": "Half of jet velocity"
+      },
+      "correctAnswer": "d",
+      "explanations": {
+        "a": "Incorrect. Equal velocities would result in no relative motion between the jet and the plate.",
+        "b": "Incorrect. Such a high plate speed would reduce energy transfer.",
+        "c": "Incorrect. This speed does not correspond to maximum efficiency.",
+        "d": "Correct. Maximum efficiency occurs when the plate speed is half the jet velocity."
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "7. If a jet is completely reversed through 180° by a smooth curved vane, the change in momentum is:",
+      "answers": {
+        "a": "Minimum",
+        "b": "Zero",
+        "c": "Maximum",
+        "d": "Independent of jet velocity"
+      },
+      "correctAnswer": "c",
+      "explanations": {
+        "a": "Incorrect. Complete reversal produces the greatest momentum change.",
+        "b": "Incorrect. Momentum change is significant and not zero.",
+        "c": "Correct. A 180° deflection provides the maximum possible change in momentum and hence maximum force.",
+        "d": "Incorrect. Momentum change depends directly on jet velocity."
+      },
+      "difficulty": "advanced"
+    },
+    {
+      "question": "8. Which quantity remains constant for a steady incompressible jet issuing from a nozzle?",
+      "answers": {
+        "a": "Mass flow rate",
+        "b": "Pressure at every point",
+        "c": "Momentum",
+        "d": "Velocity at every section"
+      },
+      "correctAnswer": "a",
+      "explanations": {
+        "a": "Correct. Under steady incompressible conditions, the mass flow rate remains constant.",
+        "b": "Incorrect. Pressure varies throughout the flow field.",
+        "c": "Incorrect. Momentum changes when the jet strikes a surface.",
+        "d": "Incorrect. Velocity may change depending on geometry and interaction with surfaces."
+      },
+      "difficulty": "advanced"
+    },
+    {
+      "question": "9. Jet impact experiments verify which fundamental equation of fluid mechanics?",
+      "answers": {
+        "a": "Bernoulli equation",
+        "b": "Continuity equation",
+        "c": "Manning equation",
+        "d": "Linear momentum equation"
+      },
+      "correctAnswer": "d",
+      "explanations": {
+        "a": "Incorrect. Bernoulli's equation relates energy conservation rather than force due to impact.",
+        "b": "Incorrect. Continuity equation expresses conservation of mass.",
+        "c": "Incorrect. Manning's equation is used for open-channel flow.",
+        "d": "Correct. Jet impact experiments experimentally verify the linear momentum equation."
+      },
+      "difficulty": "advanced"
+    }
+  ]
+}

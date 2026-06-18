@@ -1,19 +1,158 @@
-[
-  {
-    "question": "1. Define impact of jet:",
-    "answers": {
-      "a": "Force extended by the jet on the plate",
-      "b": "Pressure of liquid when it comes out of jet opening",
-      "c": "Velocity of liquid when it strikes the plate"
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "1. The impact of a jet on a surface refers to the:",
+      "answers": {
+        "a": "Pressure inside the nozzle",
+        "b": "Velocity of flow inside the pipe",
+        "c": "Force exerted by the jet on the surface",
+        "d": "Density of the liquid"
+      },
+      "correctAnswer": "c",
+      "explanations": {
+        "a": "Incorrect. Pressure inside the nozzle is not the definition of jet impact.",
+        "b": "Incorrect. Velocity contributes to the impact but does not define it.",
+        "c": "Correct. Impact of a jet is the force exerted by a moving jet on a stationary or moving surface.",
+        "d": "Incorrect. Density is a fluid property and does not define jet impact."
+      },
+      "difficulty": "beginner"
     },
-    "correctAnswer": "a"
-  },
-  {
-    "question": "2. Coefficient of velocity of jet is defined as the ratio between actual velocity of a jet of liquid at vena-contracta and the theoretical velocity of jet.",
-    "answers": {
-      "a": "False",
-      "b": "True"
+    {
+      "question": "2. The force developed due to the impact of a jet depends mainly on the change in:",
+      "answers": {
+        "a": "Temperature",
+        "b": "Momentum",
+        "c": "Viscosity",
+        "d": "Specific gravity"
+      },
+      "correctAnswer": "b",
+      "explanations": {
+        "a": "Incorrect. Temperature does not directly determine jet impact force.",
+        "b": "Correct. Jet impact force is based on the rate of change of momentum of the fluid.",
+        "c": "Incorrect. Viscosity has only an indirect effect.",
+        "d": "Incorrect. Specific gravity alone does not determine impact force."
+      },
+      "difficulty": "beginner"
     },
-    "correctAnswer": "b"
-  }
-]
+    {
+      "question": "3. The coefficient of velocity of a jet is defined as the ratio of:",
+      "answers": {
+        "a": "Actual velocity at vena contracta to theoretical velocity",
+        "b": "Theoretical velocity to actual velocity",
+        "c": "Actual discharge to theoretical discharge",
+        "d": "Area at vena contracta to area of orifice"
+      },
+      "correctAnswer": "a",
+      "explanations": {
+        "a": "Correct. The coefficient of velocity is the ratio of actual velocity at vena contracta to the theoretical velocity.",
+        "b": "Incorrect. This is the reciprocal of the coefficient of velocity.",
+        "c": "Incorrect. This ratio defines the coefficient of discharge.",
+        "d": "Incorrect. This ratio corresponds to the coefficient of contraction."
+      },
+      "difficulty": "beginner"
+    },
+    {
+      "question": "4. Which principle is used in determining the force exerted by a jet on a vane?",
+      "answers": {
+        "a": "Archimedes' principle",
+        "b": "Pascal's law",
+        "c": "Law of conservation of momentum",
+        "d": "Newton's law of viscosity"
+      },
+      "correctAnswer": "c",
+      "explanations": {
+        "a": "Incorrect. Archimedes' principle deals with buoyancy.",
+        "b": "Incorrect. Pascal's law concerns pressure transmission.",
+        "c": "Correct. The impact force is obtained using the principle of conservation of momentum.",
+        "d": "Incorrect. Newton's law of viscosity relates shear stress and velocity gradient."
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "5. When a jet strikes a stationary flat plate normally, the flow after impact moves:",
+      "answers": {
+        "a": "Back in the direction of the jet",
+        "b": "Along the surface of the plate",
+        "c": "Vertically upward only",
+        "d": "In a circular path"
+      },
+      "correctAnswer": "b",
+      "explanations": {
+        "a": "Incorrect. The flow spreads over the plate rather than returning along the jet axis.",
+        "b": "Correct. The fluid spreads tangentially along the plate after impact.",
+        "c": "Incorrect. The flow does not move only vertically upward.",
+        "d": "Incorrect. Circular motion is not produced by impact on a flat plate."
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "6. For a given discharge, the force exerted by a jet is directly proportional to:",
+      "answers": {
+        "a": "Jet velocity",
+        "b": "Square root of jet velocity",
+        "c": "Inverse of jet velocity",
+        "d": "Cube root of jet velocity"
+      },
+      "correctAnswer": "a",
+      "explanations": {
+        "a": "Correct. Since force equals mass flow rate multiplied by change in velocity, force is directly proportional to jet velocity for constant discharge.",
+        "b": "Incorrect. A square root relationship does not exist.",
+        "c": "Incorrect. Force does not decrease with increasing velocity.",
+        "d": "Incorrect. Cube root dependence is not applicable."
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "7. Which type of vane gives maximum force for a given jet velocity?",
+      "answers": {
+        "a": "Flat plate normal to the jet",
+        "b": "Inclined flat plate",
+        "c": "Curved vane deflecting the jet through 180°",
+        "d": "Perforated plate"
+      },
+      "correctAnswer": "c",
+      "explanations": {
+        "a": "Incorrect. A normal flat plate stops only the axial component of velocity.",
+        "b": "Incorrect. An inclined plate results in lower momentum change.",
+        "c": "Correct. A complete reversal of the jet direction produces maximum change in momentum and hence maximum force.",
+        "d": "Incorrect. A perforated plate allows fluid to pass through and reduces force."
+      },
+      "difficulty": "advanced"
+    },
+    {
+      "question": "8. In a series of moving flat plates struck by a jet of water, the maximum efficiency theoretically attainable is:",
+      "answers": {
+        "a": "25%",
+        "b": "50%",
+        "c": "75%",
+        "d": "100%"
+      },
+      "correctAnswer": "b",
+      "explanations": {
+        "a": "Incorrect. This value is lower than the theoretical maximum.",
+        "b": "Correct. The maximum theoretical efficiency of a series of moving flat plates is 50%.",
+        "c": "Incorrect. Such efficiency is not achievable for moving flat plates.",
+        "d": "Incorrect. Complete conversion of kinetic energy is not possible."
+      },
+      "difficulty": "advanced"
+    },
+    {
+      "question": "9. Jet impact experiments are based primarily on the conservation of:",
+      "answers": {
+        "a": "Mass only",
+        "b": "Energy only",
+        "c": "Angular momentum only",
+        "d": "Linear momentum"
+      },
+      "correctAnswer": "d",
+      "explanations": {
+        "a": "Incorrect. Mass conservation alone is insufficient to determine impact force.",
+        "b": "Incorrect. Energy conservation is not directly used for force calculations.",
+        "c": "Incorrect. Angular momentum is mainly relevant for rotating systems.",
+        "d": "Correct. Jet impact analysis is fundamentally based on the linear momentum equation."
+      },
+      "difficulty": "advanced"
+    }
+  ]
+}
