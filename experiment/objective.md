@@ -1,0 +1,4 @@
+- To verify the momentum equation experimentally.
+- To study the impact of a water jet on different vanes.
+- To compare the theoretical and experimental forces developed by the jet.
+- To understand the application of momentum principles in hydraulic engineering.

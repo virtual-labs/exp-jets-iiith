@@ -1,6 +1,3 @@
-- Fluid Mechanics - RK Bansal
-
-- Experiments on Fluid Mechanics - Sarabjit Singh
-
-- [The constructor](https://theconstructor.org/)
-
+- Bansal, R. K. Fluid Mechanics and Hydraulic Machines.
+- Singh, Sarabjit. Experiments in Fluid Mechanics.
+- [Jet (Fluid) wikipedia](<https://en.wikipedia.org/wiki/Jet_(fluid)>)
